@@ -291,7 +291,7 @@ function App() {
         style={{ transform: `translateX(${cameraX}px)` }}
       >
         {/* HORIZON LINE */}
-        <div className="absolute top-[440px] left-0 w-[10000px] h-[1px] bg-[#535353]" />
+        <div className="absolute top-[440px] left-0 w-[20000px] h-[1px] bg-[#535353]" />
 
         {/* LEVEL OBJECTS */}
         {LEVEL_CONFIG.map((obj) => (
