@@ -76,4 +76,4 @@ Designed to feel like a native browser error page turned interactive experience.
 
 ---
 
-_Created by Gokul Kannan._
+_Created by Gokul Kannan Ganesamoorthy <gokulkannan.dev@gmail.com>._
