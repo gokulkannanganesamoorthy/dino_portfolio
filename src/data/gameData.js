@@ -55,14 +55,6 @@ export const LEVELS = [
     mission: 'RECOVER 4 DATA LOGS',
     targets: [
       {
-        id: 'exp-free',
-        type: 'LOG',
-        title: 'FREELANCE',
-        subtitle: 'AUG 2025 - PRESENT',
-        content:
-          'Freelance Web Developer - Orrayson Studio. Delivered responsive, visually appealing websites tailored to brand identity. Collaborated with clients to translate business goals into functional web solutions.',
-      },
-      {
         id: 'exp-luno',
         type: 'LOG',
         title: 'LUNO TECH',
