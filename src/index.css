@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+  --color-dino-bg: #ffffff;
+  --color-dino-fg: #535353;
+  --color-dino-accent: #acacac;
+
+  --font-pixel: 'VT323', monospace;
+}
+
+:root {
+  font-family: var(--font-pixel);
+  background-color: var(--color-dino-bg);
+  color: var(--color-dino-fg);
+  overflow: hidden;
+  cursor: default;
+}
+
+/* PIXEL ART UTILS */
+.pixel-art {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* User Selection */
+::selection {
+  background: #535353;
+  color: #fff;
+}
+
+/* Custom Scrollbar (Hidden mostly) */
+::-webkit-scrollbar {
+  width: 0px;
+}
