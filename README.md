@@ -5,7 +5,7 @@
 A minimalist, interactive portfolio inspired by the legendary Chromium "No Internet" Dino Game.
 Built with **React**, **Tailwind CSS**, and a custom **1-Bit Physics Engine**.
 
-![Dino Run Trailer](src/assets/demo.mp4)
+![Dino Run Trailer] <video src="src/assets/demo.mp4" controls width="100%"></video>
 
 ## 🎮 How to Play
 
