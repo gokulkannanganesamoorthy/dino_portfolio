@@ -182,14 +182,14 @@ function App() {
       onPointerDown={handleInteraction}
     >
       {/* UI LAYER - HEADER */}
-      <div className="fixed top-4 left-4 md:top-8 md:left-8 z-50 pointer-events-none">
+      <header className="fixed top-4 left-4 md:top-8 md:left-8 z-50 pointer-events-none">
         <h1 className="text-xl md:text-2xl font-display font-bold text-[#535353] tracking-widest leading-tight w-48 md:w-auto">
           GOKUL KANNAN GANESAMOORTHY
         </h1>
         <div className="text-[8px] md:text-[10px] opacity-40 mt-1 uppercase tracking-widest">
           DISTANCE: {Math.floor(dino.distance)}m
         </div>
-      </div>
+      </header>
 
       {/* AUTO PLAY TOGGLE */}
       <div className="fixed top-24 left-4 md:top-24 md:left-8 z-50 flex items-center gap-4">
@@ -243,7 +243,7 @@ function App() {
 
       {/* DATA MODAL */}
       {modalData && (
-        <div
+        <aside
           className="fixed inset-0 z-50 flex items-center justify-center bg-white/50 backdrop-blur-md p-4"
           onClick={(e) => e.stopPropagation()}
         >
@@ -282,7 +282,7 @@ function App() {
               </button>
             )}
           </div>
-        </div>
+        </aside>
       )}
 
       {/* WORLD CONTAINER */}
@@ -337,7 +337,7 @@ function App() {
               obj.type === 'BLOCK_DATA' ||
               obj.type === 'BILLBOARD') &&
               obj.data && (
-                <div
+                <article
                   className={`flex flex-col items-center mb-12 w-64 text-center group`}
                 >
                   {/* The Content Box */}
@@ -361,7 +361,7 @@ function App() {
                   </div>
                   {/* Connector Line */}
                   <div className="w-[2px] h-12 bg-[#535353] opacity-20" />
-                </div>
+                </article>
               )}
 
             {obj.type === 'HIRE_ME' && (
