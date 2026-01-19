@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useDinoPhysics } from './hooks/useDinoPhysics';
 import { LEVEL_CONFIG } from './components/DinoLevel';
+import { StarField } from './components/StarField';
 import { AnimatePresence, motion } from 'framer-motion';
 
 function App() {
@@ -181,6 +182,8 @@ function App() {
       className="w-full h-screen bg-white text-[#535353] overflow-hidden relative font-pixel uppercase select-none active:bg-gray-50 touch-manipulation"
       onPointerDown={handleInteraction}
     >
+      <StarField />
+
       {/* UI LAYER - HEADER */}
       <header className="fixed top-4 left-4 md:top-8 md:left-8 z-50 pointer-events-none">
         <h1 className="text-xl md:text-2xl font-display font-bold text-[#535353] tracking-widest leading-tight w-48 md:w-auto">
