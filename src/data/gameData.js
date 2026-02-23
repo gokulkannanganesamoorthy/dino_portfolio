@@ -22,7 +22,7 @@ export const LEVELS = [
         title: 'WEB DEV',
         subtitle: 'DESIGN & BUILD',
         content:
-          'I design and build modern, responsive websites that combine aesthetic appeal with robust performance and user-focused interaction.',
+          'I design and build modern, responsive websites that combine premium & elegant appeal with robust performance and user-focused interaction.',
       },
       {
         id: 'cap-app',
